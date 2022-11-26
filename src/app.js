@@ -38,7 +38,7 @@ app.get ("/",  function(req,res) {
             res.write("<h1>The tempearature  in "  + query + " is "+ temp + " degree Celcius.</h1>")
             res.send()
 
-            console.log(weatherdata)
+            console.log(weatherdata);
         })
 
     })
